@@ -40,10 +40,7 @@ export default function Contact() {
         </a>
       </p>
 
-      <p>
-        Please replace the example email address with your real email
-        address before publishing the website.
-      </p>
+    
 
       <h2>What You Can Contact Us About</h2>
 
