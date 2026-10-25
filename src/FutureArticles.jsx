@@ -28,8 +28,8 @@ function FutureArticle() {
       document.head.appendChild(canonical);
     }
 
-    canonical.href = window.location.href;
-  }, []);
+    canonical.href =
+    "https://future-ai.futureai-content2026.workers.dev/future-of-artificial-intelligence";  }, []);
 
   return (
     <main className="full-article">
