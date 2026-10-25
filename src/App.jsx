@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 
 import FutureArticle from "./FutureArticles.jsx";
+import FreeAITools from "./FreeAITools.jsx";
 import PrivacyPolicy from "./PrivacyPolicy.jsx";
 import Contact from "./Contact.jsx";
 import About from "./About.jsx";
@@ -27,6 +28,7 @@ function HomePage() {
       </header>
 
       <main>
+        {/* HERO SECTION */}
         <section className="hero" id="home">
           <div className="hero-content">
             <div className="eyebrow">
@@ -87,6 +89,7 @@ function HomePage() {
           </div>
         </section>
 
+        {/* AI TOPICS SECTION */}
         <section className="intro section" id="future">
           <div className="section-label">01 / UNDERSTANDING AI</div>
 
@@ -146,63 +149,79 @@ function HomePage() {
           </div>
         </section>
 
+        {/* FEATURED ARTICLES SECTION */}
         <section className="article-section section" id="article">
-          <div className="section-label">02 / FEATURED EXPLAINER</div>
+          <div className="section-label">02 / FEATURED ARTICLES</div>
 
-          <h2>The Future of Artificial Intelligence</h2>
-
-          <p>
-            AI systems can analyse information, recognise patterns,
-            and generate content. Their abilities vary by task, and
-            they can still make mistakes. Future progress will depend
-            on research, responsible development, practical limitations,
-            and human choices.
-          </p>
-
-          <h3>What could change in the coming years?</h3>
+          <h2>Explore Our AI Articles</h2>
 
           <p>
-            AI assistants may become more integrated into everyday
-            software. Robotics may expand in suitable workplaces, while
-            education and businesses explore new ways to use intelligent
-            tools. These are possibilities, not guaranteed outcomes.
+            Discover artificial intelligence, explore useful AI tools,
+            and learn how emerging technologies may affect our lives.
           </p>
 
-          <h3>Benefits and challenges</h3>
+          {/* ARTICLE 1 */}
+          <article className="topic-card">
+            <div className="topic-icon">◈</div>
+            <span className="topic-number">ARTICLE 01</span>
 
-          <p>
-            AI may support productivity, accessibility, and scientific
-            research. Important challenges include privacy, misinformation,
-            fairness, reliability, and changes to employment.
-          </p>
+            <h3>The Future of Artificial Intelligence</h3>
 
-          <p className="source-note">
-            Further reading:{" "}
-            <a
-              href="https://hai.stanford.edu/ai-index"
-              target="_blank"
-              rel="noreferrer"
+            <p>
+              Learn about AI capabilities, future possibilities,
+              potential benefits, and important challenges.
+            </p>
+
+            <p className="source-note">
+              Further reading:{" "}
+              <a
+                href="https://hai.stanford.edu/ai-index"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Stanford AI Index
+              </a>
+              {" · "}
+              <a
+                href="https://oecd.ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                OECD AI Policy Observatory
+              </a>
+            </p>
+
+            <Link
+              className="primary-button"
+              to="/future-of-artificial-intelligence"
             >
-              Stanford AI Index
-            </a>
-            {" · "}
-            <a
-              href="https://oecd.ai/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              OECD AI Policy Observatory
-            </a>
-          </p>
+              Read the AI Future Article ↗
+            </Link>
+          </article>
 
-          <Link
-            className="primary-button"
-            to="/future-of-artificial-intelligence"
-          >
-            Read the full article ↗
-          </Link>
+          {/* ARTICLE 2 */}
+          <article className="topic-card">
+            <div className="topic-icon">✳</div>
+            <span className="topic-number">ARTICLE 02</span>
+
+            <h3>Best Free AI Tools for Students in 2026</h3>
+
+            <p>
+              Discover AI tools that may help students with learning,
+              research, writing, coding, and productivity. Check each
+              tool's current free-plan limits before using it.
+            </p>
+
+            <Link
+              className="primary-button"
+              to="/free-ai-tools-for-students"
+            >
+              Read the Free AI Tools Article ↗
+            </Link>
+          </article>
         </section>
 
+        {/* JOBS SECTION */}
         <section className="jobs-section section" id="jobs">
           <div className="section-label">03 / WORK &amp; SOCIETY</div>
 
@@ -223,6 +242,7 @@ function HomePage() {
           </div>
         </section>
 
+        {/* ABOUT SECTION */}
         <section className="about-section section" id="about">
           <div className="section-label">04 / ABOUT THIS WEBSITE</div>
 
@@ -242,6 +262,7 @@ function HomePage() {
         </section>
       </main>
 
+      {/* FOOTER */}
       <footer className="footer">
         <Link className="logo" to="/">
           Future<span>AI</span>
@@ -268,13 +289,22 @@ function HomePage() {
 function App() {
   return (
     <Routes>
+      {/* HOME PAGE */}
       <Route path="/" element={<HomePage />} />
 
+      {/* ARTICLE 1 */}
       <Route
         path="/future-of-artificial-intelligence"
         element={<FutureArticle />}
       />
 
+      {/* ARTICLE 2 */}
+      <Route
+        path="/free-ai-tools-for-students"
+        element={<FreeAITools />}
+      />
+
+      {/* OTHER PAGES */}
       <Route
         path="/privacy-policy"
         element={<PrivacyPolicy />}
