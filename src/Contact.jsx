@@ -29,18 +29,14 @@ export default function Contact() {
 
       <h2>Get in Touch</h2>
 
-      <p>
-        You can contact the Future AI team by email:
-      </p>
+      <p>You can contact the Future AI team by email:</p>
 
       <p>
         <strong>Email:</strong>{" "}
-        <a href="mailto:YOUR_EMAIL@gmail.com">
-        futureai.content2026@gmail.com
+        <a href="mailto:futureai.content2026@gmail.com">
+          futureai.content2026@gmail.com
         </a>
       </p>
-
-    
 
       <h2>What You Can Contact Us About</h2>
 
@@ -52,9 +48,7 @@ export default function Contact() {
         <li>Privacy-related questions</li>
       </ul>
 
-      <p>
-        Thank you for visiting Future AI!
-      </p>
+      <p>Thank you for visiting Future AI!</p>
     </main>
   );
 }
