@@ -4,6 +4,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import FutureArticle from "./FutureArticles.jsx";
 import FreeAITools from "./FreeAITools.jsx";
 import FreeAILearning from "./FreeAILearning.jsx";
+import AIJobs from "./AIJobs.jsx";
 import PrivacyPolicy from "./PrivacyPolicy.jsx";
 import Contact from "./Contact.jsx";
 import About from "./About.jsx";
@@ -239,6 +240,26 @@ function HomePage() {
     Learn AI for Free ↗
   </Link>
 </article>
+{/* ARTICLE 4 */}
+<article className="topic-card">
+  <div className="topic-icon">🤖</div>
+
+  <span className="topic-number">ARTICLE 04</span>
+
+  <h3>Can AI Replace Human Jobs in 2026?</h3>
+
+  <p>
+    Discover how AI is changing jobs, which skills matter,
+    and how students and freshers can prepare for future careers.
+  </p>
+
+  <Link
+    className="primary-button"
+    to="/ai-replace-human-jobs"
+  >
+    Explore AI & Jobs ↗
+  </Link>
+</article>
         </section>
 
         {/* JOBS SECTION */}
@@ -327,6 +348,10 @@ function App() {
       <Route
   path="/learn-ai-for-free"
   element={<FreeAILearning />}
+/>
+<Route
+  path="/ai-replace-human-jobs"
+  element={<AIJobs />}
 />
 
       {/* OTHER PAGES */}
