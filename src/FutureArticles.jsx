@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import AdsterraAd from "./AdsterraAd.jsx";
 
 function FutureArticle() {
   useEffect(() => {
@@ -84,6 +85,7 @@ function FutureArticle() {
           communication, critical thinking, and responsible AI use
           can help people adapt, but no skill guarantees employment.
         </p>
+        <AdsterraAd/>
 
         <h2>5. AI in Education and Research</h2>
         <p>
