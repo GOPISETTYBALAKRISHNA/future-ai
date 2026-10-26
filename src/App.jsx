@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 
 import FutureArticle from "./FutureArticles.jsx";
 import FreeAITools from "./FreeAITools.jsx";
+import FreeAILearning from "./FreeAILearning.jsx";
 import PrivacyPolicy from "./PrivacyPolicy.jsx";
 import Contact from "./Contact.jsx";
 import About from "./About.jsx";
@@ -219,6 +220,25 @@ function HomePage() {
               Read the Free AI Tools Article ↗
             </Link>
           </article>
+          {/* ARTICLE 3 */}
+<article className="topic-card">
+  <div className="topic-icon">📚</div>
+  <span className="topic-number">ARTICLE 03</span>
+
+  <h3>How to Learn Artificial Intelligence for Free in 2026</h3>
+
+  <p>
+    Discover free AI learning resources, essential skills,
+    beginner projects, and a practical 30-day learning plan.
+  </p>
+
+  <Link
+    className="primary-button"
+    to="/learn-ai-for-free"
+  >
+    Learn AI for Free ↗
+  </Link>
+</article>
         </section>
 
         {/* JOBS SECTION */}
@@ -303,6 +323,11 @@ function App() {
         path="/free-ai-tools-for-students"
         element={<FreeAITools />}
       />
+      {/*ARTICLE 3 */}
+      <Route
+  path="/learn-ai-for-free"
+  element={<FreeAILearning />}
+/>
 
       {/* OTHER PAGES */}
       <Route
