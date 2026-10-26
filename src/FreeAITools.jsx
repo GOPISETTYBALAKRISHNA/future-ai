@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import AdsterraAd from "./AdsterraAd.jsx";
 
 export default function FreeAITools() {
   useEffect(() => {
@@ -120,6 +121,7 @@ export default function FreeAITools() {
           displays it. Check the author's expertise, publication date,
           evidence, and original context.
         </p>
+        <AdsterraAd />
 
         <h2>4. AI Tools for Language Learning</h2>
 

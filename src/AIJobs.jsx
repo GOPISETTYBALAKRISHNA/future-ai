@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import AdsterraAd from "./AdsterraAd.jsx";
 export default function AIJobs() {
   useEffect(() => {
     document.title =
@@ -73,7 +73,7 @@ export default function AIJobs() {
             patterns, generating content, and helping people analyze
             information.
           </p>
-
+          <AdsterraAd />
           <p>
             AI tools can assist with writing, coding, customer support,
             research, data analysis, and repetitive office work. However,

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import AdsterraAd from "./AdsterraAd.jsx";
 
 function FreeAILearning() {
   useEffect(() => {
@@ -77,7 +78,7 @@ function FreeAILearning() {
           understand the fundamentals, practise regularly, and build
           small projects.
         </p>
-
+        <AdsterraAd />
         <p>
           This guide explains the skills you need, free learning
           resources, beginner projects, and a practical 30-day plan.
