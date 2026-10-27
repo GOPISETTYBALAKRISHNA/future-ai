@@ -5,11 +5,10 @@ import FutureArticle from "./FutureArticles.jsx";
 import FreeAITools from "./FreeAITools.jsx";
 import FreeAILearning from "./FreeAILearning.jsx";
 import AIJobs from "./AIJobs.jsx";
-import AdsterraAd from "./AdsterraAd";
 import PrivacyPolicy from "./PrivacyPolicy.jsx";
 import Contact from "./Contact.jsx";
 import About from "./About.jsx";
-
+import AdsterraMultiAd from "./AdsterraMultiAd.jsx";
 function HomePage() {
   return (
     <div className="website">
@@ -43,7 +42,6 @@ function HomePage() {
               Discover the <br />
               <span>Future of AI.</span>
             </h1>
-            <AdsterraAd />
 
             <p>
               Explore how artificial intelligence may transform our world,
@@ -64,7 +62,8 @@ function HomePage() {
               <span>✦</span> Real information. Research-led insights.
             </div>
           </div>
-          <AdsterraAd />
+          <AdsterraMultiAd type="native" />
+
 
           <div className="hero-art">
             <div className="orbit orbit-one"></div>
@@ -93,7 +92,7 @@ function HomePage() {
             </div>
           </div>
         </section>
-        <AdsterraAd />
+        <AdsterraMultiAd type="banner320" />
 
         {/* AI TOPICS SECTION */}
         <section className="intro section" id="future">
@@ -165,7 +164,8 @@ function HomePage() {
             Discover artificial intelligence, explore useful AI tools,
             and learn how emerging technologies may affect our lives.
           </p>
-          <AdsterraAd />
+
+<AdsterraMultiAd type="banner300" />
 
           {/* ARTICLE 1 */}
           <article className="topic-card">
@@ -205,7 +205,7 @@ function HomePage() {
               Read the AI Future Article ↗
             </Link>
           </article>
-          <AdsterraAd />
+          <AdsterraMultiAd type="banner728" />
 
           {/* ARTICLE 2 */}
           <article className="topic-card">
@@ -246,7 +246,6 @@ function HomePage() {
     Learn AI for Free ↗
   </Link>
 </article>
-<AdsterraAd />
 
 {/* ARTICLE 4 */}
 <article className="topic-card">
@@ -290,7 +289,7 @@ function HomePage() {
             <span>Continuous learning</span>
           </div>
         </section>
-        <AdsterraAd />
+        
 
         {/* ABOUT SECTION */}
         <section className="about-section section" id="about">

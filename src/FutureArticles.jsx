@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import AdsterraAd from "./AdsterraAd.jsx";
+import AdsterraMultiAd from "./AdsterraMultiAd.jsx";
 
 function FutureArticle() {
   useEffect(() => {
@@ -50,6 +51,9 @@ function FutureArticle() {
           This guide distinguishes current applications from
           future possibilities. Predictions are not guarantees.
         </p>
+        <AdsterraMultiAd type="native" />
+
+
 
         <h2>1. What Is Artificial Intelligence?</h2>
         <p>
@@ -68,6 +72,7 @@ function FutureArticle() {
           predictions, or generate text and images. AI output can
           be incorrect, so important results should be checked.
         </p>
+        <AdsterraMultiAd type="banner320" />
 
         <h2>3. AI in Everyday Life</h2>
         <p>
@@ -121,7 +126,7 @@ function FutureArticle() {
           Responsible development requires testing, transparency,
           appropriate safeguards, and human accountability.
         </p>
-        <AdsterraAd />
+        <AdsterraMultiAd type="banner300" />
 
         <h2>9. Will AI Become Smarter Than Humans?</h2>
         <p>
@@ -161,7 +166,7 @@ function FutureArticle() {
           understand AI limitations, and explore tools relevant to
           your education or profession.
         </p>
-        <AdsterraAd />
+        <AdsterraMultiAd type="banner728" />
 
         <h2>Conclusion</h2>
         <p>

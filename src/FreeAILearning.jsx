@@ -116,6 +116,7 @@ function FreeAILearning() {
           software, and work with online learning platforms.
           These basics make technical learning easier.
         </p>
+        <AdsterraAd />
 
         <h3>Python programming</h3>
 
@@ -177,6 +178,7 @@ function FreeAILearning() {
           in an accessible way. It is a useful starting point for
           people who want to understand AI before focusing on coding.
         </p>
+        <AdsterraAd />
 
         <p>
           <a
@@ -235,6 +237,8 @@ function FreeAILearning() {
           <li>Write down the difference between AI and machine learning.</li>
           <li>Spend time on a beginner-friendly AI course.</li>
         </ul>
+        <AdsterraAd />
+
 
         <h3>Days 8–14: Start Python</h3>
 
@@ -313,6 +317,7 @@ function FreeAILearning() {
           You do not need to buy a certificate to begin practising
           AI concepts.
         </p>
+        <AdsterraAd />
 
         <h2>7. Common Mistakes Beginners Should Avoid</h2>
 
@@ -440,6 +445,7 @@ function FreeAILearning() {
             </a>
           </li>
         </ul>
+        <AdsterraAd />
 
         <div className="article-links">
           <Link
