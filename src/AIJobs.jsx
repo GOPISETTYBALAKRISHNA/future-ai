@@ -120,6 +120,7 @@ export default function AIJobs() {
             integrate, evaluate, secure, and responsibly use these systems.
             Opportunities differ by location, experience, and employer.
           </p>
+          <AdsterraAd />
 
           <ul>
             <li><strong>AI and software development:</strong> Building applications that use AI services.</li>
@@ -244,6 +245,7 @@ export default function AIJobs() {
             data literacy, communication, problem-solving, and responsible AI
             use can be valuable, depending on your career goals.
           </p>
+          <AdsterraAd />
 
           <h3>Do I need to be an expert in mathematics to start learning AI?</h3>
           <p>
@@ -291,6 +293,7 @@ export default function AIJobs() {
             This article is for general educational purposes. Job-market
             outcomes vary and are not guaranteed.
           </p>
+          <AdsterraAd />
 
           <p>
             <Link to="/">Home</Link>

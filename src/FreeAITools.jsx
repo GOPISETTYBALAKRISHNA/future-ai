@@ -165,6 +165,7 @@ export default function FreeAITools() {
           Never paste passwords, API keys, private customer information,
           or confidential project data into an AI tool.
         </p>
+        <AdsterraAd />
 
         <h2>6. AI Tools for Notes and Productivity</h2>
 
@@ -196,6 +197,7 @@ export default function FreeAITools() {
           whether a payment method is required, and how your information
           may be stored or processed.
         </p>
+        <AdsterraAd />
 
         <h2>8. How to Choose the Right AI Tool</h2>
 
@@ -257,6 +259,7 @@ export default function FreeAITools() {
           request explanations, practise independently, and check the
           answers against reliable sources.
         </p>
+        <AdsterraAd />
 
         <h2>Conclusion</h2>
 
